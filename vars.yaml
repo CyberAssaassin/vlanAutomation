@@ -1,0 +1,10 @@
+---
+vlan_list:
+  - id: 10
+    name: "Management"
+  - id: 20
+    name: "Engineering"
+  - id: 30
+    name: "Voice"
+  - id: 40
+    name: "Guest"

@@ -1,0 +1,11 @@
+---
+all:
+  children:
+    switches:
+      hosts:
+        core-switch-01:
+          ansible_host: 127.0.0.1
+          ansible_connection: ansible.netcommon.network_cli
+          ansible_network_os: cisco.ios.ios
+          ansible_user: admin
+          ansible_password: password
